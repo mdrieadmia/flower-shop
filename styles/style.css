@@ -48,6 +48,9 @@ a{
     line-height: 30px;
     text-align: center;
 }
+.importent{
+    color: #E55473;
+}
 /* ------- Header Part ------*/
 #banner {
     width: 100%;
@@ -218,4 +221,25 @@ a{
     font-size: 16px;
     font-weight: 400;
     color: #26262699;
+}
+/* --------- Footer Part ------- */
+footer{
+    width: 100%;
+    background: #111010;
+    padding: 130px 0;
+}
+.footer_content .section_heading h3{
+    color: #fff;
+    font-size: 48px;
+}
+.footer_content .section_heading p{
+    color: #fff;
+    font-size: 18px;
+}
+.copywrite_text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff66;
+    text-align: center;
+    margin-top: 35px;
 }
