@@ -1,0 +1,61 @@
+/* ------- Font link -------- */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+/* ------- Common CSS ------ */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+a{
+    display: inline-block;
+}
+.btn{
+    padding: 20px 45px;
+    background: #E55473;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    transition: 0.2s all linear;
+}
+.btn:hover{
+    background: transparent;
+    border: 2px solid #E55473;
+    color: #E55473;
+}
+/* ------- Header Part ------*/
+#banner {
+    width: 100%;
+    background: #e552721a;
+    padding-top: 50px;
+}
+
+.banner_content {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner_text *{
+    max-width: 700px;
+    margin-bottom: 35px;
+}
+.banner_text h1 {
+    font-size: 80px;
+    font-weight: 800;
+    color: #272727;
+}
+.banner_text p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #26262699;
+    line-height: 30px;
+}
