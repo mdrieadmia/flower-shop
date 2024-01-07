@@ -144,3 +144,78 @@ a{
     color: #272727ce;
     line-height: 35px;
 }
+/* ------ Deal Part ------ */
+#deal{
+    width: 100%;
+    background: #e554730d;
+    padding: 100px 0;
+}
+.deal_content{
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.deal_text {
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.deal_text .btn{
+    margin-top: 35px;
+}
+/* ------- Instagram Part ------- */
+#instagram{
+    width: 100%;
+    padding: 130px;
+}
+.instagram_content{
+    width: 1440px;
+    margin: 0 auto;
+}
+.instagram_img_row{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+/* ------- Newsletter Part ------ */
+#newsletter{
+    width: 100%;
+    padding-bottom: 130px;
+}
+.newsletter_content{
+    width: 1440px;
+    padding: 120px 285px;
+    margin: 0 auto;
+    background: url(../asset/images/Rectangle\ 9.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.subscribe{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+.subscribe input{
+    flex-grow: 1;
+}
+.subscribe input{
+    border: none;
+    padding-left: 30px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #26262699;
+}
+.subscribe input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    color: #26262699;
+}
